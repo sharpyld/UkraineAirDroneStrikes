@@ -17,12 +17,16 @@ fatality patterns based on past airstrike data.
 ## Data Sources (2022-2026)
 1. Armed Conflict Location & Event Data
 (ACLED)
+
 • Conflict events, actors, locations, and
 fatalities across Ukraine
-2. UAV attack data & model specifications
+
+3. UAV attack data & model specifications
 (Kaggle Open Data)
+
 • Ukrainian developer tracking media outlets
 and posting data to Kaggle
+
 • Detailed records of launched/destroyed
 missiles & UAVs, including model info and
 target
@@ -33,7 +37,9 @@ After multiple iterations and evaluation,
 presence of casualties on given airstrike for
 increased interpretability. Top features:
 • Day of year
+
 • Longitude/Latitude of target
+
 • Population of target city
 
 ## RF Model Evaluation
@@ -75,8 +81,10 @@ Humanitarian Aid
 • Identifying high-risk areas and understanding casualty patterns
 can inform targeted humanitarian efforts.
 Policy & Defense
+
 • Insights into attack types and locations can aid in developing
 more effective defense strategies and resource allocation.
 Conflict Monitoring
+
 • Predictive models can contribute to early warning systems for
 escalating violence and influence military and policy responses.
