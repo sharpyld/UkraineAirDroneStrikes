@@ -15,14 +15,14 @@ project’s goal is to understand geographic and
 fatality patterns based on past airstrike data.
 
 ## Data Sources (2022-2026)
-1. Armed Conflict Location & Event Data
-(ACLED)
+1. **Armed Conflict Location & Event Data
+(ACLED)**
 
 • Conflict events, actors, locations, and
 fatalities across Ukraine
 
-3. UAV attack data & model specifications
-(Kaggle Open Data)
+2. **UAV attack data & model specifications
+(Kaggle Open Data)**
 
 • Ukrainian developer tracking media outlets
 and posting data to Kaggle
@@ -36,6 +36,7 @@ After multiple iterations and evaluation,
 “Random Forest” (RF) model selected to predict
 presence of casualties on given airstrike for
 increased interpretability. Top features:
+
 • Day of year
 
 • Longitude/Latitude of target
@@ -48,8 +49,16 @@ was cross-validated using standard metrics.
 Results below, showing successful and
 accurate prediction of fatality presence for
 given strike.
-Accuracy = 0.90 Recall = 0.90
-F1-Score = 0.90 Precision = 0.89
+
+Performance Metrics:
+
+• Accuracy = 0.90
+
+• Recall = 0.90
+
+• F1-Score = 0.90
+
+• Precision = 0.89
 
 ## Key Findings & Conclusion
 Our investigation into the Ukraine conflict,
@@ -64,7 +73,7 @@ the war, consistently endure a
 disproportionately high number of airstrikes,
 correlating with greater casualties. Our
 predictive analysis further confirms
-that where and when these events occur
+that **where and when these events occur**
 are crucial factors in determining their
 severity and the number of casualties. This
 predictive capability offers a powerful tool
@@ -77,14 +86,17 @@ to meaningfully contribute to the ongoing
 analysis of the war effects in Ukraine.
 
 ## Societal Implications
-Humanitarian Aid
+**Humanitarian Aid**
+
 • Identifying high-risk areas and understanding casualty patterns
 can inform targeted humanitarian efforts.
-Policy & Defense
+
+**Policy & Defense**
 
 • Insights into attack types and locations can aid in developing
 more effective defense strategies and resource allocation.
-Conflict Monitoring
+
+**Conflict Monitoring**
 
 • Predictive models can contribute to early warning systems for
 escalating violence and influence military and policy responses.
