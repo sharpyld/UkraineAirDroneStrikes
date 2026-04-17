@@ -1,7 +1,7 @@
 # UkraineAirDroneStrikes
 The Russo-Ukrainian War: An Analysis of the Russian Air/Drone Strikes on Ukraine
 
-# Introduction
+## Introduction
 Russian air and drone strikes are a defining
 feature of the Russo-Ukrainian war, causing
 widespread destruction and civilian casualties.
@@ -14,7 +14,7 @@ broader conflict dynamics remains limited. This
 project’s goal is to understand geographic and
 fatality patterns based on past airstrike data.
 
-# Data Sources (2022-2026)
+## Data Sources (2022-2026)
 1. Armed Conflict Location & Event Data
 (ACLED)
 • Conflict events, actors, locations, and
@@ -27,7 +27,7 @@ and posting data to Kaggle
 missiles & UAVs, including model info and
 target
 
-# Modeling
+## Modeling
 After multiple iterations and evaluation,
 “Random Forest” (RF) model selected to predict
 presence of casualties on given airstrike for
@@ -36,7 +36,7 @@ increased interpretability. Top features:
 • Longitude/Latitude of target
 • Population of target city
 
-# RF Model Evaluation
+## RF Model Evaluation
 Using 80%-20% training and test split, model
 was cross-validated using standard metrics.
 Results below, showing successful and
@@ -45,7 +45,7 @@ given strike.
 Accuracy = 0.90 Recall = 0.90
 F1-Score = 0.90 Precision = 0.89
 
-# Key Findings & Conclusion
+## Key Findings & Conclusion
 Our investigation into the Ukraine conflict,
 with a special focus on UAV strikes, has
 uncovered significant insights. The war
@@ -70,7 +70,7 @@ implications. Our hope with this research is
 to meaningfully contribute to the ongoing
 analysis of the war effects in Ukraine.
 
-# Societal Implications
+## Societal Implications
 Humanitarian Aid
 • Identifying high-risk areas and understanding casualty patterns
 can inform targeted humanitarian efforts.
